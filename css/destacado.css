@@ -1,0 +1,61 @@
+.visonmision{
+    background-color: var(--background-azul-claro);
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+    padding-left: 5rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.titulo__visionmision{
+    color: var(--fuente-ceniza-oscuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.tarjeta__vm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    align-items: center;
+    width: 45%;
+    margin-bottom: 2rem;
+}
+
+
+
+.destacados-oanel-texto {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: normal;
+    text-align: justify;
+}
+
+@media screen and (max-width:600px) {
+    .tarjeta__vm{
+        padding-top: 2.5rem;
+        padding-right: 4rem;
+        padding-left: 1rem;
+        width: 95%;
+        align-items: center;
+    }
+
+    .visonmision{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items:center;
+
+    }
+    .vm{
+    padding-top: 1.5rem;
+    width: 150px;
+    height: auto;
+    }
+}

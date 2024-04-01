@@ -1,0 +1,99 @@
+.diferenciales {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.diferenciales__lista {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.diferenciales__item {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 2rem 5rem 2rem 5rem;
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
+    display: flex;
+    
+}
+
+.diferenciales__item-valores{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.diferenciales__item-docente {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.diferenciales__item-disciplinas {
+    display: flex; 
+    flex-direction: row;
+
+}
+
+.diferenciales__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.item__titulo {
+    color: var(--fuente-ceniza-oscuro);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.item__texto {
+    line-height: normal;
+}
+
+.imgdif {
+    width: 250px;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .diferenciales {
+        background-color: var(--cinza-claro);
+    }
+    .diferenciales__lista {
+        justify-content: space-around;
+    }
+   
+}
+
+@media screen and (max-width: 600px) {
+    .imgdif {
+        width: 150px;
+        
+    }
+    .diferenciales__text{
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+        line-height: normal;
+    text-align: justify;
+    }
+    
+
+    .diferenciales__item-docente{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .diferenciales__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+}

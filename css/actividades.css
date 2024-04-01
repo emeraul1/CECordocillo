@@ -1,0 +1,107 @@
+.actividades {
+    margin-top: 1rem;
+    background-color: aliceblue;
+    width: 100%;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lista__actividades {
+    overflow-y: auto;
+    white-space: nowrap; 
+}
+
+
+.lista__actividades::-webkit-scrollbar{
+    width: 0;
+}
+
+.titulo__actividades{
+    margin-top: 2rem;
+}
+.articulos {
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto__actividad {
+    width: 100%;
+    max-width: 400px;
+    height: auto; 
+}
+
+.actvidades123 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.descripcion__actividad {
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .descripcion__actividad{
+        min-width: 50px;
+        padding-left: 0%;
+        height: auto;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .actividades{
+        width: 100%;
+        max-height: 350px;
+        align-items: center;
+    }
+    .foto__actividad{
+        width: 80% ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .articulos {
+        padding-top: 3rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .descripcion__actividad {
+        padding: 0 10px; /* Ajustar el relleno horizontal según sea necesario */
+        text-align: center;
+        overflow-wrap: break-word; /* Permitir que el texto se rompa en palabras */
+        word-wrap: break-word; /* Permitir que el texto se rompa en palabras */
+    }
+
+    .actividad__texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .lista__actividades{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
